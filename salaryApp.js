@@ -88,7 +88,8 @@ function addRecordHandler() {
     return;
   }
 
-  addRecord(name, !salary);
+  // addRecord(name, !salary);  it was the first debug
+  addRecord(name, salary);
 }
 
 function addRecord(name, salary) {
